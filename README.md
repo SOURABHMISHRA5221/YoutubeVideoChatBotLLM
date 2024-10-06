@@ -28,12 +28,6 @@ This project leverages Langchain, RAG, Cohere Embedding, Chroma DB, LLama3, and 
 - Ensure you have the necessary API keys and access tokens for Langchain, Cohere, and other services.
 - Update the `config.json` file with your credentials.
 
-## Contributing
-We welcome contributions! Please read our Contributing Guidelines for more details.
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for more information.
-
 ## Acknowledgements
 - Langchain
 - Cohere
