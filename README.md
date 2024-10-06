@@ -13,18 +13,14 @@ This project leverages Langchain, RAG, Cohere Embedding, Chroma DB, LLama3, and 
 ## Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/youtube-chatbot.git
-    cd youtube-chatbot
-    ```
-2. Install the required dependencies:
-    ```bash
-    pip install -r requirements.txt
+    git clone https://github.com/SOURABHMISHRA5221/YoutubeVideoChatBotLLM.git
+    cd YoutubeVideoChatBotLLM
     ```
 
 ## Usage
 1. Run the main script:
     ```bash
-    python main.py
+    python ChatBot.py
     ```
 2. Interact with the chatbot through the provided interface.
 
