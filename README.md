@@ -7,7 +7,7 @@ This project leverages Langchain, RAG, Cohere Embedding, Chroma DB, LLama3, and 
 - **Video Summarization**: Generate concise summaries of YouTube videos.
 - **Question Answering**: Answer questions related to the content of YouTube videos using their transcripts.
 - **Advanced Embeddings**: Utilize Cohere Embedding for efficient and accurate text representation.
-- **Robust Database**: Store and retrieve data using Chroma DB.
+- **Robust Vector Database**: Store and retrieve data using Chroma DB.
 - **Powerful Language Models**: Employ LLama3 and Ollama for natural language understanding and generation.
 
 ## Installation
@@ -26,8 +26,9 @@ This project leverages Langchain, RAG, Cohere Embedding, Chroma DB, LLama3, and 
 2. Interact with the chatbot through the provided interface.
 
 ## Configuration
-- Ensure you have the necessary API keys and access tokens for Langchain, Cohere, and other services.
-- Update the `config.json` file with your credentials.
+- Make sure to add .env file. Ensure that the .env file contains the correct values for:
+- MODEL_URL (the URL for your LLama3 or Ollama model)
+- COHERE_API_KEY (your API key for Cohere embeddings)
 
 ## Acknowledgements
 - Langchain
@@ -35,3 +36,6 @@ This project leverages Langchain, RAG, Cohere Embedding, Chroma DB, LLama3, and 
 - Chroma DB
 - LLama3
 - Ollama
+
+## To Host llama3 or any model locally checkout : 
+- [Hosting LLM Locally](https://github.com/SOURABHMISHRA5221/LocalLLM)
