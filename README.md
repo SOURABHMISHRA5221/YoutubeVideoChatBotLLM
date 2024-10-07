@@ -20,6 +20,7 @@ This project leverages Langchain, RAG, Cohere Embedding, Chroma DB, LLama3, and 
 ## Usage
 1. Run the main script:
     ```bash
+    pip install -r requirements.txt
     python ChatBot.py
     ```
 2. Interact with the chatbot through the provided interface.
