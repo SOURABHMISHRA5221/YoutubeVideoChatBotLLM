@@ -1,0 +1,8 @@
+youtube-transcript-api==0.6.0
+langchain==0.0.273
+beautifulsoup4==4.12.2
+langchain-community==0.0.2
+langchain-chroma==0.0.1
+cohere==4.6.0
+langchainhub==0.1.4
+python-dotenv==1.0.0
