@@ -21,5 +21,7 @@ def get_transcript():
 	transcript = generate_transcript_from_video_id(video_id)
 	write_trancscript_to_text(transcript)
 	return
+
+
 	
 
